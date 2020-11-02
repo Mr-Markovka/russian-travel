@@ -1,4 +1,4 @@
-.footer__link_calendar {
+.footer__link-calendar {
     max-width: 86px;
     text-decoration: none;
     color: #FFF;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .footer__link_calendar {
+    .footer__link-calendar {
         max-width: 128px;
     }
 }

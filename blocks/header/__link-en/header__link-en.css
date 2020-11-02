@@ -1,11 +1,11 @@
-.header__link_ru {
-  max-width: 30px;
+.header__link-en {
+  max-width: 29px;
   text-decoration: none;
   color: #fff;
 }
 
 @media (max-width: 320px) {
-  .header__link_ru {
+  .header__link-en {
     max-width: 22px;
   }
 }

@@ -1,4 +1,4 @@
-.footer__link_travel {
+.footer__link-travel {
     max-width: 106px;
     text-decoration: none;
     color: #FFF;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .footer__link_travel {
+    .footer__link-travel {
         max-width: 158px;
     }
 }

@@ -1,5 +1,5 @@
-.footer__link_rasp {
-    max-width: 94px;
+.footer__link-pogoda {
+    max-width: 57px;
     text-decoration: none;
     color: #FFF;
     font-size: 16px;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .footer__link_rasp {
-        max-width: 140px;
+    .footer__link-pogoda {
+        max-width: 85px;
     }
 }

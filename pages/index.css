@@ -11,8 +11,8 @@
 @import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__link/_ru/header__link_ru.css);
-@import url(../blocks/header/__link/_en/header__link_en.css);
+@import url(../blocks/header/__link-en/header__link-en.css);
+@import url(../blocks/header/__link-ru/header__link-ru.css);
 
 
 @import url(../blocks/content/content.css);
@@ -63,9 +63,9 @@
 @import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/footer/__link/_maps/footer__link_maps.css);
-@import url(../blocks/footer/__link/_pogoda/footer__link_pogoda.css);
-@import url(../blocks/footer/__link/_rasp/footer__link_rasp.css);
-@import url(../blocks/footer/__link/_calendar/footer__link_calendar.css);
-@import url(../blocks/footer/__link/_travel/footer__link_travel.css);
+@import url(../blocks/footer/__link-calendar/footer__link-calendar.css);
+@import url(../blocks/footer/__link-maps/footer__link-maps.css);
+@import url(../blocks/footer/__link-pogoda/footer__link-pogoda.css);
+@import url(../blocks/footer/__link-rasp/footer__link-rasp.css);
+@import url(../blocks/footer/__link-travel/footer__link-travel.css);
 @import url(../blocks/footer/__author/footer__author.css);

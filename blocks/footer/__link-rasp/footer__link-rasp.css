@@ -1,5 +1,5 @@
-.footer__link_maps {
-    max-width: 50px;
+.footer__link-rasp {
+    max-width: 94px;
     text-decoration: none;
     color: #FFF;
     font-size: 16px;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .footer__link_maps {
-        max-width: 74px;
+    .footer__link-rasp {
+        max-width: 140px;
     }
 }
