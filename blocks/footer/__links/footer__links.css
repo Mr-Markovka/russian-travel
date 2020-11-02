@@ -10,7 +10,6 @@
 @media screen and (max-width: 520px) {
     .footer__links {
         max-width: 100%;
-        list-style: none; 
         display: block; 
     }
 }
@@ -18,7 +17,6 @@
 @media screen and (max-width: 320px) {
     .footer__links {
         max-width: 100%;
-        list-style: none;
         display: block; 
     }
 }
