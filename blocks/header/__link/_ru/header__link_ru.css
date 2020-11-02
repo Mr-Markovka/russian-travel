@@ -1,4 +1,13 @@
 .header__link_ru {
-    width: 30px;
-    height: 28px;
+    max-width: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* стили для малого смартфона*/
+@media (max-width: 320px) {
+  .header__link_ru {
+    max-width: 22px;
+  }
 }

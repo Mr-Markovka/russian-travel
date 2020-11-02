@@ -1,0 +1,25 @@
+.footer__links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;  
+}
+
+@media screen and (max-width: 520px) {
+    .footer__links {
+        max-width: 100%;
+        list-style: none; 
+        display: block; 
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__links {
+        max-width: 100%;
+        list-style: none;
+        display: block; 
+    }
+}
+

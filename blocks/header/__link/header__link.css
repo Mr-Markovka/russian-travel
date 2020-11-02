@@ -1,3 +1,28 @@
 .header__link {
     font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: right;
+    margin-right: 18px;
 }
+
+.header__link:last-of-type {
+    margin-right: 0;
+}
+
+.header__link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+/* стили для малого смартфона*/
+@media (max-width: 320px) {
+    .header__link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+

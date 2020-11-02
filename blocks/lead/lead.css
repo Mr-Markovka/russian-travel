@@ -1,11 +1,31 @@
 .lead {
-    border: 1px solid yellowgreen;
-    width: 984px;
-    height: 1005px;
-    margin: 0 auto;
+    max-width: 76.88%;
+    /*margin: 0 auto 92px;*/ /*по макету*/
+    margin: 0 auto 102px; /*по пп*/
     padding: 0;
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 90.63%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 100%;
+        margin: 0 auto 100px auto;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .lead {
+        max-width: 100%;
+        margin: 0 auto 76px auto;
+    }
 }

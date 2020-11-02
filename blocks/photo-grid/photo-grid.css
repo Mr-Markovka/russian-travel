@@ -1,3 +1,36 @@
 .photo-grid {
-    border: 1px solid peru;
+    max-width: 92.5%;
+    margin: 0 auto 105px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        max-width: 90.63%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        max-width: 93.75%;
+        margin: 0 auto 88px auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        max-width: 90%;
+        margin: 0 auto 64px auto;
+        display: flex;
+        flex-direction: column;
+    }
+
 }

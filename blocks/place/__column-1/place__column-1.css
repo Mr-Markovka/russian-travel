@@ -1,0 +1,24 @@
+.place__column-1 {
+    width: 50.81%;
+    padding-right: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__column-1 {
+        width: 50.86%%;
+        padding-right: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__column-1 {
+        width: 51.11%%;
+        padding-right: 28px;
+    }
+
+@media screen and (max-width: 320px) {
+    .place__column-1 {
+        width: 100%;
+        padding-right: 0;
+    }
+}

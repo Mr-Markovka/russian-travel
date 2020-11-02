@@ -1,0 +1,9 @@
+.place__url_two-words {
+    margin: 98px 0 12px 0; 
+}
+
+@media screen and (max-width: 768px) {
+    .place__url_two-words {
+        margin: 0 0 12px 0;  
+    }
+}
