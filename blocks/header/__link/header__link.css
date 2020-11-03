@@ -14,10 +14,8 @@
 
 .header__link:hover {
     opacity: 0.8;
-    text-decoration: underline;
 }
 
-/* стили для малого смартфона*/
 @media (max-width: 320px) {
     .header__link {
         font-size: 18px;
