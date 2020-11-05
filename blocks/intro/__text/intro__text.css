@@ -12,12 +12,12 @@
 
 @media screen and (max-width: 1024px) {
     .intro__text {
-        margin: 0 0 39px 0;
+        margin: 0 0 39px 0; /*по ПП*/ 
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro__text {
-        margin: 0 0 px 0;
+        margin: 0 0 34px 0;
     }
 }

@@ -1,0 +1,10 @@
+.card__image {
+    width: 100%;
+    display: block;
+}
+
+@media screen and (max-width: 520px) {
+    .card__image {
+        margin-bottom: 32px;
+    }
+}

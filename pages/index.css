@@ -4,16 +4,13 @@
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 
-
 /*header*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__link-en/header__link-en.css);
-@import url(../blocks/header/__link-ru/header__link-ru.css);
-@import url(../blocks/header/__link/_active/header__link_active.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__lang/_active/header__lang_active.css);
 
 
 @import url(../blocks/content/content.css);
@@ -21,6 +18,7 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
@@ -28,8 +26,8 @@
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
-@import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__items/intro__items.css);
+@import url(../blocks/intro/__span/intro__span.css);
 @import url(../blocks/intro/__item/intro__item.css);
 
 
@@ -39,34 +37,24 @@
 
 /*4 секция places*/
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/__two-columns/places__two-columns.css);
-@import url(../blocks/places/__card/places__card.css);
-@import url(../blocks/place/place.css);
-@import url(../blocks/place/__column-one/place__column-one.css);
-@import url(../blocks/place/__column-two/place__column-two.css);
-@import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__url/place__url.css);
-@import url(../blocks/place/__url/_two-words/place__url_two-words.css);
-@import url(../blocks/place/__website/place__website.css);
-@import url(../blocks/place/__description/place__description.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__website/card__website.css);
+@import url(../blocks/card/__url/card__url.css);
+@import url(../blocks/card/__link/card__link.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__description/card__description.css);
 
 /*5 секция cover*/
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__image/cover__image.css);
-
 
 /*footer*/
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/footer/__link-calendar/footer__link-calendar.css);
-@import url(../blocks/footer/__link-maps/footer__link-maps.css);
-@import url(../blocks/footer/__link-pogoda/footer__link-pogoda.css);
-@import url(../blocks/footer/__link-rasp/footer__link-rasp.css);
-@import url(../blocks/footer/__link-travel/footer__link-travel.css);
 @import url(../blocks/footer/__author/footer__author.css);

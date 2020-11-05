@@ -21,15 +21,13 @@
 
 @media screen and (max-width: 718px) {
     .footer {
-        max-width: 93.75%;
         display: block;
     }
 }
 
 @media screen and (max-width: 320px) {
     .footer {
-        max-width: 58.13%;
-        margin: 0 118px 24px 16px;
-        display: block;
+        max-width: 95%;
+        margin: 0 0 24px 16px;
     }
 }

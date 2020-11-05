@@ -1,12 +1,17 @@
 .lead {
     max-width: 76.88%;
-    /*margin: 0 auto 92px;*/ /*по макету*/
-    margin: 0 auto 102px; /*по пп*/
+    margin: 0 auto 102px;
     padding: 0;
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (max-width: 1140px) {
+    .lead {
+        max-width: 88.44%;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -25,7 +30,6 @@
 
 @media screen and (max-width: 320px) {
     .lead {
-        max-width: 100%;
         margin: 0 auto 76px auto;
     }
 }

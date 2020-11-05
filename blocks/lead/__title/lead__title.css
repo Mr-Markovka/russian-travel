@@ -8,6 +8,7 @@
     text-align: center;
     margin: 0 auto 32px auto;
 }
+
 @media screen and (max-width: 694px) {
     .lead__title {
         max-width: 680px;
