@@ -5,21 +5,21 @@
 
 @media screen and (max-width: 1024px) {
     .places {
-        max-width: 90.63%;     
-        margin: 0 auto 103px auto;  
+        max-width: 90.63%;
+        margin: 0 auto 103px auto;
     }
 }
 
 @media screen and (max-width: 768px) {
     .places {
         max-width: 93.75%;
-        margin: 0 auto 90px auto;  
+        margin: 0 auto 90px auto;
     }
 }
 
 @media screen and (max-width: 520px) {
     .places {
         max-width: 100%;
-        margin: 0 auto 66px auto;  
+        margin: 0 auto 66px auto;
     }
 }
