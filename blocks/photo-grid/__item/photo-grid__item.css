@@ -2,3 +2,9 @@
   display: block;
   width: 100%;
 }
+
+@media screen and (max-width: 360px) {
+  .photo-grid__item {
+      padding-bottom: 12px;
+  }
+}

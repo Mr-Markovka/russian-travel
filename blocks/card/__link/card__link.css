@@ -5,23 +5,26 @@
     line-height: 22px;
     letter-spacing: 0em;
     color: #fff;
-    margin-bottom: 48px;
 }
 
 .card__link:hover {
     opacity: 0.8;
+    transition : all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
 }
 
 @media screen and (max-width: 520px) {
     .card__link {
         line-height: 12px;
-        margin: 0 16px 32px 16px;  
+        margin: 0 16px 32px 16px; 
     }
 }
 
 @media screen and (max-width: 320px) {
     .card__link {
-        display: none; 
+        display: none;
     }
 }
 
